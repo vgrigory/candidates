@@ -1,10 +1,10 @@
 // Splits the input array of strings into two arrays based on the separator
 // 'sep'. The input array is assumed to be non-null, though may be empty, and to
-// only contain String objects, none of
-// which may be null. The return value is a 2-element array of strings, where
-// the first array represents all elements of the input preceding the first
-// occurrence of 'sep', and the second array represents all elements of the
-// input following, but not including, the first occurrence of 'sep'. 
+// only contain String objects, none of which may be null. The return value is a
+// 2-element array of strings, where the first array represents all elements of
+// the input preceding the first occurrence of 'sep', and the second array
+// represents all elements of the input following, but not including, the first
+// occurrence of 'sep'. 
 //
 // Examples, using the given input and "--" as 'sep':
 //
