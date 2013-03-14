@@ -28,6 +28,8 @@ describe( "questions", function() {
 
         makeTest( [ "--" ], [ [], [] ] );
 
+        makeTest( [ "--", "--" ], [ [], [ "--" ] ] );
+
         makeTest( [ "a", "--", "b", "--" ], [ [ "a" ], [ "b", "--" ] ] );
 
         makeTest( [ "a", "--", "--", "--" ], [ [ "a" ], [ "--", "--" ] ] );
