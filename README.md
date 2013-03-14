@@ -49,8 +49,37 @@ answers from becoming public knowledge, request that you do the following when
 working with us on these:
 
 -   Create a clone of this repository somewhere for yourself and do whatever
-    work you need to do to complete your exercises.
+    work you need to do to complete your exercises:
+
+        $ git clone https://github.com/h162/candidates.git work-dir
 
 -   Create a patch file and mail it to us at work@hangar162.com. We'll apply it
     to a clean starting point and take a look at your submission and be in
     touch!
+
+About Hangar162
+===============
+
+Humans use a lot of mediums to make and communicate meaning, many of which
+obscure the direct and common sense approach of seeing things for yourself.
+
+There is loss in the execution of the vision when distance is involved. In all
+of the emails, spreadsheets, powerpoints along the way something is lost. The
+final product can fall short of the ideal. We are there to fill that gap. To
+bring reality closer to your vision.
+
+This product is a tool for organizations that value culture, that value the
+contributions of their employees, that want people to love, absolutely love,
+coming to work.
+
+Hangar 162 is building a video communication platform.
+
+As an individual, it is powerful way to privately share what's going on where
+you are with family and friends.
+
+As a business, it is a simple and inexpensive video solution that requires no
+integration. From a general contractor showing clients progress on their house
+to a large retailer checking-in with hundreds of store managers, our product
+gives you greater visibility into what's going on in different parts of your
+business.
+

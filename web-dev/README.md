@@ -1,15 +1,32 @@
 Our WebDev Position
 ===================
 
-We're looking for a web developer with strong client- and server-side JavaScript
-skills, a solid command of HTML, the DOM, and CSS (You don't have to be a
-designer, but you do need to understand how CSS *works*).
+We're looking for a senior web developer to join our team. You'll be a primary
+contributor to the development of our products and have the chance not only to
+build it with us but to determine what we build and how we build it. We're a
+small team and move quickly -- but not recklessly.
 
-The day to day responsibilities will be to implement and evolve the Hangar162
-web applications and to take an ongoing role in shaping what the product is and
-how it does it. You should be comfortable working with the `git`, `node`, `npm`
-and other commands, and should know how to run basic Unix shell commands and
-scripts.
+Hopefully this is interesting to you. In terms of what we're looking for, we
+expect that you'll:
+
+-   Be proficient at server-side JavaScript development using NodeJs.
+
+-   Have a commanding knowledge of client-side JavaScript and AJAX development
+
+-   Understand HTML, the DOM, and CSS
+
+-   Have experience and expert knowledge of at least one major client-side
+    JavaScript toolchain (Google Closure, YUI, JQuery, Dojo, etc) and be excited
+    to learn how to use Google's Closure tools.
+
+-   Know your way around the browser developer console and feel comfortable
+    using it to diagnose and understand your code as it runs.
+
+-   Have basic UNIX/MacOSX skills and be able to run scripts and basic commands
+    from the command line
+
+-   Have familiarity with `git` and `github` and understand how to use branches,
+    pull requests, and other collaborative development tools.
 
 If that's you, then the exercises below should be a walk in the park!
 
