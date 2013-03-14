@@ -20,4 +20,5 @@ module.exports.ApiClient = function( port ) { this.port = port; };
 // This method should treat any non-200 status as an error and should assume
 // that any 200 status indicates a valid JSON response body.
 module.exports.ApiClient.prototype.request = function( req, cb ) {
+    throw new Error( "Unimplemented" );
 };
