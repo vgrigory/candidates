@@ -53,10 +53,23 @@ function respondApi( req, res, next ) {
     res.send( 501, { error: "Unimplemented" } );
 }
 
+// Entry point to begin rendering the view in views/page1.jade. See the jade
+// file for details on how the rendered HTML should look, and modify this method
+// to set any properties and pass in whatever locals you need to accomplish
+// that.
+function renderPage1( req, res, next ) {
+    res.render( "page1.jade", {} );
+}
+
 function initApp( app ) {
     
     app.use( express.json() );
     app.post( "/api", respondApi );
+
+    app.set( "views", __dirname + "/views" );
+    app.get( "/page1", renderPage1 );
+
+    app.use( "/-/", express.static( __dirname + "/static" ) );
 }
 
 function startApp( app ) {

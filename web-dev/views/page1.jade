@@ -1,0 +1,70 @@
+//- This view should render HTML with 2 separate sections.  In the first section
+//- should be an input field where a user can enter her name, as well as some
+//- sort of submit button. Below it should be the default text content "What is
+//- your name?"
+//- 
+//- When the submit button is clicked, the page should use AJAX to call the
+//- 'sayHello' API (see app.js#respondApi for API details), passing the value
+//- from the input field as the 's' parameter. On a success response, the page
+//- should replace the text "What is your name?" with the text returned from the
+//- server. 
+//-
+//- Be sure that you are setting the response text safely. In particular, if a
+//- user enters her name as "<script>alert( "Gotcha!" )</script>", the displayed
+//- text should be that literal string. The page should not end up evaluating
+//- the alert.
+//-
+//- Feel free to use whatever client side JavaScript toolkits you'd like. We use
+//- Google Closure at Hangar162, and you will ultimately need to learn it here
+//- if you don't already know it. That being said, for the purposes of these
+//- exercises, feel free to use whatever toolkits you're most comfortable with.
+//- You can link to them remotely or copy them into the static/ directory (see
+//- the README.md file for details on how to set up statics).
+//-
+//- In the second section of the page (maybe nice to draw a line between them
+//- for clarity), generate a 2-columned table here in the view (do not generate
+//- it client-side) displaying all of the headers sent by the browser. The order
+//- of display should be alphabetical by header and should be case-insensitive.
+//- Formatting is not important, so feel free to show things in the easiest way
+//- possible. 
+//-
+//- You will need to pass in the sorted headers as locals to this view and
+//- iterate through them as you populate the table. To do that, modify the
+//- function 'renderPage1()' in app.js as needed.
+//-
+//- To illustrate, here is an example of what your HTML output might be, leaving
+//- out some details that you'll fill in as you see fit. Of course yours can be
+//- laid out however you like, but as an example:
+//-
+//- <html>
+//-     <body>
+//-         <div>
+//-             <p>
+//-                 <input id="nameInput"/>
+//-                 <button id="sayHelloButton"/>
+//-                 <br/>
+//-                 <span>What is your name?</span>
+//-             </p>
+//-             <script>
+//-                 // ... of your client side JS might go here
+//-             </script>
+//-         </div>
+//-         <hr/>
+//-         <div>
+//-             <table>
+//-                 <tr>
+//-                     <td>Accept</td>
+//-                     <td>*/*</td>
+//-                 </tr>
+//-                 <tr>
+//-                     <td>User-Agent</td>
+//-                     <td>Mozilla/1.1 blah/blah</td>
+//-                 <tr>
+//-                 ...
+//-             </table>
+//-         </div>
+//-     </body>
+//- </html>
+//-
+
+!!! html5

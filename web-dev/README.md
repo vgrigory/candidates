@@ -7,3 +7,5 @@ well as some stubbed out methods for you to implement:
     arrays.splitArray
     app.respondApi
     apiCalls.ApiClient.request()
+
+serving statics
