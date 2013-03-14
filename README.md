@@ -53,6 +53,10 @@ working with us on these:
 
         $ git clone https://github.com/h162/candidates.git work-dir
 
+-   When you're ready to submit, make sure you check in your final changes to
+    your local repo. You can check in locally as often as you like of course,
+    but make sure you check in your final change as well.
+
 -   Create a patch file and mail it to us at work@hangar162.com. Assuming you're
     in this working directory, you can create a patch file for all of the work
     you've done with this command:
