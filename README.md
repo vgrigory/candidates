@@ -53,9 +53,14 @@ working with us on these:
 
         $ git clone https://github.com/h162/candidates.git work-dir
 
--   Create a patch file and mail it to us at work@hangar162.com. We'll apply it
-    to a clean starting point and take a look at your submission and be in
-    touch!
+-   Create a patch file and mail it to us at work@hangar162.com. Assuming you're
+    in this working directory, you can create a patch file for all of the work
+    you've done with this command:
+        
+        $ git format-patch origin/master..master --stdout > /tmp/patch
+    
+    Then add `/tmp/patch` as an attachment to your email to us and we'll take a
+    look!
 
 About Hangar162
 ===============
