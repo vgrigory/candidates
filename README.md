@@ -38,8 +38,8 @@ more than 30-60 mins to complete. We are available to give clarification and to
 fix errors in the exercises, but we'll otherwise expect that you can complete
 the tests and run the code without our help. 
 
-<a id="getting-started"> Getting Started
-========================================
+Getting Started
+==========================================
 
 We've made these examples public so that you don't have to jump through any
 hoops or ask for anything special to see what we're all about. In theory, there
