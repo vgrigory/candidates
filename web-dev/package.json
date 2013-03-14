@@ -1,0 +1,11 @@
+{
+    "name": "webdev",
+    "version": "0.0.1",
+    "dependencies": {
+        "debug": "0.7.2",
+        "express" : "3.0.0rc4",
+        "jade" : "0.28.1",
+        "stylus": "0.32.0",
+        "mocha": "1.8.1"
+    }
+}
