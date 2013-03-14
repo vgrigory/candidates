@@ -7,8 +7,9 @@ var express = require( "express" )
 ,   webConf = require( "./web-conf" )
 ;
 
-// Implement this method to respond to test API requests. Test API requests will
-// be POSTed as JSON objects having the following fields:
+// Implement this method to respond to test API requests. Test API requests must
+// be POSTed as JSON objects having content type 'application/json' and the
+// following fields:
 //
 //  op (String)
 //      The operation to call (see below for specific operations to implement)
@@ -31,13 +32,12 @@ var express = require( "express" )
 // respond with the string "Hello, ___!" where '___' is the value of the 's'
 // parameter:
 //
-//      { op: "sayHello", params: { s: "Joe" } } -->
-//          { result: "Hello, Joe!" }
+//      { op: "sayHello", params: { s: "Joe" } } --> { result: "Hello, Joe!" }
 //
 // If params is null or missing the parameter 's' the result should be the
 // following error response:
 //
-//      { error: "param missing: s" }
+//      { op: "sayHello" } --> { error: "param missing: s" }
 //
 // If the request is missing an operation the API should respond with the
 // following error:
@@ -55,6 +55,7 @@ function respondApi( req, res, next ) {
 
 function initApp( app ) {
     
+    app.use( express.json() );
     app.post( "/api", respondApi );
 }
 
