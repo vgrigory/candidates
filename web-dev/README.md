@@ -80,7 +80,8 @@ following tasks:
         $ ./node_modules/mocha/bin/mocha -g 'api' test/questions.js
 
 -   Render and implement client-side logic for the page `/page1`. Details are in
-    [`page1.jade`](https://github.com/h162/candidates/blob/master/web-dev/views/page1.jade). With your server running, you can test your page by going to 
+    [`page1.jade`](https://github.com/h162/candidates/blob/master/web-dev/views/page1.jade).
+    With your server running, you can test your page by going to 
     
         http://localhost:10040/page1
 
@@ -93,4 +94,5 @@ for `page1` into its own `.js` file, you can do that by putting it in the
 [`static`](https://github.com/h162/candidates/tree/master/web-dev/static)
 directory. Files in there will be served by your webserver under the '/-/'
 prefix. So, the file `static/hello.txt` can be loaded via
-`http://localhost:10040/-/hello.txt`.
+
+    `http://localhost:10040/-/hello.txt`

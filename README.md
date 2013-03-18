@@ -10,9 +10,14 @@ is what we typically expect to happen:
 -   You find out about us and about an opportunity that interests you. The fact
     that you're reading this means you've probably crossed that hurdle already.
 
--   We ask you to take some time and dive into the technologies that we use and
-    to complete a few simple coding exercises (See the ["Getting
-    Started"](#getting-started) section for details).
+-   We'll send you a short set of technical questions and you can just email us
+    your answers. This will give us both a quick sense of whether there is a
+    potential fit.
+
+-   If it looks like there could be a good fit, we'll ask you to take some time
+    and dive into the technologies that we use and to complete a few simple
+    coding exercises (See the ["Getting Started"](#getting-started) section for
+    details).
 
 -   We'll review your answers and, if we think there might be a fit, contact you
     for a short (30min typically) call to discuss the company and the product,
