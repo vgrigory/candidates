@@ -54,14 +54,3 @@ the two:
         o.e
         o.e === null
         o.e != null
-    
-4. Given a remote git repository `origin` having a branch `master`, what is the
-difference between the command 
-
-        $ git fetch origin master
-
-    and 
-    
-        $ git pull origin master
-
-    Hint: run the command `git help pull` to read some helpful docs.
