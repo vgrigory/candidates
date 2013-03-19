@@ -48,7 +48,7 @@ web applications:
 -   AJAX/Browser based JavaScript.
 
 To help demonstrate and exercise some core concepts, you should complete the
-following tasks:
+following tasks (See [here](https://github.com/h162/candidates#submitting-your-answers) for instructions on how to submit your answers):
 
 -   Obtain a recent version of NodeJs and `npm`, and use `npm` to install the
     test application:
@@ -95,4 +95,4 @@ for `page1` into its own `.js` file, you can do that by putting it in the
 directory. Files in there will be served by your webserver under the '/-/'
 prefix. So, the file `static/hello.txt` can be loaded via
 
-    `http://localhost:10040/-/hello.txt`
+    http://localhost:10040/-/hello.txt

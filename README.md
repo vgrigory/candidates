@@ -62,14 +62,17 @@ working with us on these:
     your local repo. You can check in locally as often as you like of course,
     but make sure you check in your final change as well.
 
--   Create a patch file and [mail it to us](mailto:work@hangar162.com) at
-    work@hangar162.com. Assuming you're in this working directory, you can
-    create a patch file for all of the work you've done with this command:
+Submitting Your Answers
+======================================
+
+Create a patch file and [mail it to us](mailto:work@hangar162.com) at
+work@hangar162.com. Assuming you're in this working directory, you can create a
+patch file for all of the work you've done with this command:
         
-        $ git format-patch origin/master..master --stdout > /tmp/patch
+    $ git format-patch origin/master..master --stdout > /tmp/patch
     
-    Then add `/tmp/patch` as an attachment to your email to us and we'll take a
-    look!
+Then add `/tmp/patch` as an attachment to your email to us and we'll take a
+look!
 
 About Hangar162
 ===============
