@@ -56,6 +56,11 @@ following tasks (See [here](https://github.com/h162/candidates#submitting-your-a
         $ cd web-dev
         $ npm install
 
+    **Please note**: We use a clean install of NodeJs. This means any modules
+    you'll need must be added to your version of `package.json`. That being
+    said, we don't expect that you'll need any extra packages for this exercise,
+    but you may use them if you like.
+
 -   Implement the method `splitFirst` in
     [`arrays.js`](https://github.com/h162/candidates/blob/master/web-dev/arrays.js).
     You can test your implementation (as we will) with the following command:
