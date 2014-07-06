@@ -3,7 +3,7 @@ First Steps Questionnaire
 
 As the first step in our getting to know each other, please take a moment to
 send your answers to the questions below to
-[work@dispatch.tv](mailto:work@hdispatch.tv). Feel free to include just your
+[work@dispatch.tv](mailto:work@dispatch.tv). Feel free to include just your
 answers or, if you prefer, just download this file (click the "Raw" button at
 the top of this github page) and include your answers directly inline.
 
