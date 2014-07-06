@@ -1,7 +1,7 @@
 Our WebDev Position
 ===================
 
-We're looking for a senior web developer to join our team. You'll be a primary
+We're looking for a frontend web developer to join our team. You'll be a primary
 contributor to the development of our products and have the chance not only to
 build it with us but to determine what we build and how we build it. We're a
 small team and move quickly -- but not recklessly.
@@ -9,11 +9,12 @@ small team and move quickly -- but not recklessly.
 Hopefully this is interesting to you. In terms of what we're looking for, we
 expect that you'll:
 
--   Be proficient at server-side JavaScript development using NodeJs.
+-   Have an understanding of server-side JavaScript development using NodeJs.
 
 -   Have a commanding knowledge of client-side JavaScript and AJAX development
 
--   Understand HTML, the DOM, and CSS
+-   Understand HTML, the DOM, and CSS in both desktop and mobile web
+    environments
 
 -   Have experience and expert knowledge of at least one major client-side
     JavaScript toolchain (Google Closure, YUI, JQuery, Dojo, etc) and be excited
@@ -50,8 +51,8 @@ web applications:
 To help demonstrate and exercise some core concepts, you should complete the
 following tasks (See [here](https://github.com/h162/candidates#submitting-your-answers) for instructions on how to submit your answers):
 
--   Obtain a recent version of NodeJs and `npm`, and use `npm` to install the
-    test application:
+-   Obtain [version 0.8.21](http://nodejs.org/dist/v0.8.21/) of NodeJs and
+    `npm`, and use `npm` to install the test application:
 
         $ cd web-dev
         $ npm install

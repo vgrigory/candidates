@@ -65,8 +65,8 @@ working with us on these:
 Submitting Your Answers
 ======================================
 
-Create a patch file and [mail it to us](mailto:work@hangar162.com) at
-work@hangar162.com. Assuming you're in this working directory, you can create a
+Create a patch file and [mail it to us](mailto:work@dispatch.tv) at
+work@dispatch.tv. Assuming you're in this working directory, you can create a
 patch file for all of the work you've done with this command:
         
     $ git format-patch origin/master..master --stdout > /tmp/patch
@@ -74,8 +74,8 @@ patch file for all of the work you've done with this command:
 Then add `/tmp/patch` as an attachment to your email to us and we'll take a
 look!
 
-About Hangar162
-===============
+About Dispatch.tv
+=================
 
 Humans use a lot of mediums to make and communicate meaning, many of which
 obscure the direct and common sense approach of seeing things for yourself.
@@ -89,7 +89,7 @@ This product is a tool for organizations that value culture, that value the
 contributions of their employees, that want people to love, absolutely love,
 coming to work.
 
-Hangar 162 is building a video communication platform.
+Dispatch.tv is building a video communication platform.
 
 As an individual, it is powerful way to privately share what's going on where
 you are with family and friends.

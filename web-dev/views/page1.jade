@@ -9,16 +9,10 @@
 //- should replace the text "What is your name?" with the text returned from the
 //- server. 
 //-
-//- If the user has not entered any non-whitespace text in the input, you should
-//- show an alert to that effect and not attempt to contact the API. You don't
-//- need to do anything special with other API or network errors other than
-//- display an alert that an error occurred and then re-enable the submit
-//- button.
-//-
-//- Make sure to disable the button once processing has begun and re-enable it
-//- after a successful completion -- it should be possible to use the button to
-//- change an already-changed name, but it should not be possible to have two
-//- simultaneous changes in flight at the same time.
+//- The submit should be enabled if and only if there is non-whitespace text in
+//- the input, and if there is not currently a request being processed.
+//- Make sure to re-enable the button after a response is received, so the user
+//- can resubmit a new name.
 //-
 //- Be sure that you are setting the response text safely. In particular, if a
 //- user enters her name as "<script>alert( "Gotcha!" )</script>", the displayed
@@ -26,7 +20,7 @@
 //- the alert.
 //-
 //- Feel free to use whatever client side JavaScript toolkits you'd like. We use
-//- Google Closure at Hangar162, and you will ultimately need to learn it here
+//- Google Closure at Dispatch.tv, and you will ultimately need to learn it here
 //- if you don't already know it. That being said, for the purposes of these
 //- exercises, feel free to use whatever toolkits you're most comfortable with.
 //- You can link to them remotely or copy them into the static/ directory (see
@@ -71,7 +65,7 @@
 //-                     <td>User-Agent</td>
 //-                     <td>Mozilla/1.1 blah/blah</td>
 //-                 <tr>
-//-                 ...
+//-                 ... // the rest of the headers
 //-             </table>
 //-         </div>
 //-     </body>
