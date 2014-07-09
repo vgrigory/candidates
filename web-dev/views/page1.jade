@@ -14,6 +14,10 @@
 //- Make sure to re-enable the button after a response is received, so the user
 //- can resubmit a new name.
 //-
+//- Note that while whitespace-only inputs should not be processed (see above),
+//- inputs with leading or trailing whitespace should be allowed, and of course
+//- inputs with internal spaces are also valid ("Joe Coder III" is valid).
+//-
 //- Be sure that you are setting the response text safely. In particular, if a
 //- user enters her name as "<script>alert( "Gotcha!" )</script>", the displayed
 //- text should be that literal string. The page should not end up evaluating
