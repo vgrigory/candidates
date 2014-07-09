@@ -54,3 +54,19 @@ the two:
         o.e
         o.e === null
         o.e != null
+
+4. Create, Register, and Confirm an account using our [iOS
+app](https://itunes.apple.com/us/app/dispatch.tv/id690762433?mt=8) or [the
+website](http://www.dispatch.tv) (Note: registration page for the web can be
+found [here](http://www.dispatch.tv/register). Once you're in, create a channel
+with your name as the title and add the user `work@dispatch.tv` to your channel.
+Because every channel requires at least one video or one text comment, use this
+as an opportunity to tell us something you like about the app, and something
+that you think should change or which could be done better. Please limit your
+response to 500 characters or, if responding with a video, 30 seconds.
+
+5. After you've used the app a little bit, step back and think about it in the
+world at large. How would you use it? How would you explain it to other people
+in 2 sentences? If you had to sell it as a productivity tool, who would you sell
+it to (Nurses and doctors? Construction companies? Retail store managers?)
+Please limit your answer to 500 characters.
