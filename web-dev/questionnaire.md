@@ -58,7 +58,7 @@ the two:
 4. Create, Register, and Confirm an account using our [iOS
 app](https://itunes.apple.com/us/app/dispatch.tv/id690762433?mt=8) or [the
 website](http://www.dispatch.tv) (Note: registration page for the web can be
-found [here](http://www.dispatch.tv/register). Once you're in, create a channel
+found [here](http://www.dispatch.tv/register)). Once you're in, create a channel
 with your name as the title and add the user `work@dispatch.tv` to your channel.
 Because every channel requires at least one video or one text comment, use this
 as an opportunity to tell us something you like about the app, and something
