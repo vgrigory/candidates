@@ -68,6 +68,9 @@ following tasks (See [here](https://github.com/h162/candidates#submitting-your-a
         
         $ ./node_modules/mocha/bin/mocha -g 'array' test/questions.js
 
+    Note: for this exercise you should not use any external or required
+    libraries -- just pure javascript.
+
 -   Implement the application's simplistic JSON/HTTP API as specified in the
     `respondApi()` method in
     [`app.js`](https://github.com/h162/candidates/blob/master/web-dev/app.js).

@@ -34,6 +34,9 @@
 //
 //      [ "--" ] --> [ [], [] ]
 //
+// REMINDER: don't use any external modules or libraries for this exercise --
+// just pure javascript
+//
 module.exports.splitFirst = function( input, sep ) {
     throw new Error( "Unimplemented" );
 };
