@@ -55,7 +55,14 @@ the two:
         o.e === null
         o.e != null
 
-4. Create, Register, and Confirm an account using our [iOS
+4. What is the result of the following unix shell command (feel free to run it
+from a terminal to find out):
+
+        printf "ab\ncd\ncc\n" | grep -v d | tr 'a' 'Z'
+
+   Explain, briefly, how each piece of the command contributes to the result.
+
+5. Create, Register, and Confirm an account using our [iOS
 app](https://itunes.apple.com/us/app/dispatch.tv/id690762433?mt=8) or [the
 website](http://www.dispatch.tv) (Note: registration page for the web can be
 found [here](http://www.dispatch.tv/register)). Once you're in, create a channel
@@ -65,7 +72,7 @@ as an opportunity to tell us something you like about the app, and something
 that you think should change or which could be done better. Please limit your
 response to 500 characters or, if responding with a video, 30 seconds.
 
-5. After you've used the app a little bit, step back and think about it in the
+6. After you've used the app a little bit, step back and think about it in the
 world at large. How would you use it? How would you explain it to other people
 in 2 sentences? If you had to sell it as a productivity tool, who would you sell
 it to (Nurses and doctors? Construction companies? Retail store managers?)
